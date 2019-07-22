@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 今、情热が岚になって
+title: 日常摸鱼
 showtag:
 - ICPC模板
 ---
