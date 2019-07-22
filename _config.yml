@@ -63,13 +63,13 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
-    value: http://pv125k1gl.bkt.clouddn.com/blog_head_Imag.png
+    value: //pv125k1gl.bkt.clouddn.com/blog_head_Imag.png
 - tag: link # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
   - key: href
-    value: http://pv125k1gl.bkt.clouddn.com/blog_head_Imag.png
+    value: //pv125k1gl.bkt.clouddn.com/blog_head_Imag.png
 - tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面
   var:
   - key: rel
