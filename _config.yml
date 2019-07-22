@@ -159,18 +159,18 @@ sidebar:
   - title: rss # rss
     href: /atom.xml
     class: 'fa fa-rss fa-fw'
-  - title: 942759535 # qq
+  - title: 1572690269 # qq
     class: 'fa fa-qq fa-fw'
-  - title: Wu-_-Kan # weixin
+  - title: cy1572690269 # weixin
     class: 'fa fa-weixin fa-fw'
-  - title: wu.kan@foxmail.com # email
-    href: mailto:wu.kan@foxmail.com
+  - title: 1572690269@qq.com # email
+    href: https://mail.qq.com
     class: 'fa fa-envelope fa-fw'
   - title: github # email
-    href: //github.com/wu-kan
+    href: //github.com/COPASTERS
     class: 'fa fa-github fa-fw'
-  - title: WuK # codeforces
-    href: //codeforces.com/profile/WuK
+  - title: 小魔术师哈哈(B站) # B站
+    href: https://www.bilibili.com/
     class: 'fa fa-bar-chart fa-fw'
   - title: WuK # vjudge
     href: //vjudge.net/user/WuK

@@ -4,11 +4,31 @@ title: 关于
 permalink: /about
 ---
 
-## 开始
+# 我的生涯
+
+## 初心
+
+我曾做什么？
+
+我正做什么？
+
+我想做什么？
+
+我该做什么？
+
+我将到达那里?
+
+## 历程
+
+### 2017-7-22
+
+   - 开始搭建博客
 
 ## 致谢
 
 托管于[Github Pages](https://pages.github.com/)，感谢。
+
+基于[wu-kan](https://wu-kan.github.io/)，感谢。
 
 由[jekyll/jekyll](https://github.com/jekyll/jekyll)驱动，感谢。
 
@@ -30,46 +50,3 @@ Live2D基于[stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/liv
 
 使用了[leopardpan/leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)的头像翻转效果，感谢。
 
-## Feature/Todo
-
-从[这个页面](https://magical-girl.site/)得到的灵感，目标是博客上除了文章和作为导航的Live2D之外尽量不出现其他的模块。
-
-- [x] 完成博客文章标签页
-- [ ] 完成博客文章分类页（分类暂时和标签没区别）
-- [ ] 重写博客首页，做一个有意思的封面，不再显示文章
-- [x] 加入评论系统，暂时考虑用valine+leancloud实现
-  - [x] 基于valine的阅读量统计
-- [x] 加入不蒜子统计
-- [x] <span class="fa fa-font-awesome"></span> Font Awesome
-- [x] 全站搜索
-- [x] 移植[原博客的ribbon动态背景](https://github.com/theme-next/theme-next-canvas-ribbon)
-- [x] 调整代码块风格，并加上代码选中按钮
-- [x] 加入可以自动展开、标号的目录
-  - [ ] 自动展开
-- [x] mermaid
-  - [x] Markdown代码扩展
-- [x] $\KaTeX$
-- [x] Live2D
-  - [x] 导航
-  - [x] 一言
-  - [ ] 找个人工智障对话的api接入现在的Live2D对话，当前是显示几个已有的句子或一言
-  - [ ] 删改掉原来的的骚话-_-
-  - [ ] 加上切换Live2D显示/关闭的按钮
-  - [ ] 使用自己搭建的Live2D后端API
-    - [ ] 收集一些Live2D Model
-
-## 初心
-
-我曾做什么？
-
-我正做什么？
-
-我想做什么？
-
-我该做什么？
-
-## 历程
-
-### 2017年7月22日
-
-- 开始搭建博客
