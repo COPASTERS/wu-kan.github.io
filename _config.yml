@@ -169,12 +169,12 @@ sidebar:
   - title: github # email
     href: //github.com/COPASTERS
     class: 'fa fa-github fa-fw'
+  - title: CSDN # vjudge
+    href: #地址
+    class: 'fa fa-smile-o fa-fw'
   - title: 小魔术师哈哈(B站) # B站
     href: https://www.bilibili.com/
     class: 'fa fa-bar-chart fa-fw'
-  - title: WuK # vjudge
-    href: //vjudge.net/user/WuK
-    class: 'fa fa-smile-o fa-fw'
   nav:
   - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
     href: /
