@@ -15,7 +15,7 @@ date: 2019-08-10 19:49:51
      
      <option name="configurationTypes">  
           <set>
-             <optionvalue="SpringBootApplicationConfigurationType" />  
+             <option value="SpringBootApplicationConfigurationType" />  
           </set>  
      </option>  
 这样Run Dashboard这个窗口就可以弹出来了。
