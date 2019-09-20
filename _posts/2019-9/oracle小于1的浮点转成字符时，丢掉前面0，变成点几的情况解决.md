@@ -4,6 +4,7 @@ categories: oracle
 tags: oracle
 date: 2019-09-20 17:06:12
 ---
+
 问题出现：
 
        select round(1/300*100,4)||'%' from dual;
