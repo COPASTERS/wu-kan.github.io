@@ -255,11 +255,11 @@ post:
 valine:
   enable: true
   src: //cdn.jsdelivr.net/npm/valine
-  appId: 9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz
-  appKey: NJ7RwmgrxsF7KDzlqU7YewlL
+  appId: 9p7V5Izm5fvNBGdeKMI7V6HY-gzGzoHsz
+  appKey: NgbASQQyj9d9dAC8k9J4TVyN
   notify: true # 评论回复邮件提醒
   verify: true # 验证码服务
-  avatar: identicon
+  avatar: identicon #评论者的头像,我这里设置的显示 不显示为 hide
   placeholder: 在这里评论吧！
   visitor: true # 文章访问量统计
   highlight: true # 代码高亮
