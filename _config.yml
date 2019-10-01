@@ -214,7 +214,7 @@ busuanzi:
 
 run-time:
   enable: true
-  start-time: '10/04/2017 11:03:56' # 这是我搭建博客的时间
+  start-time: '10/04/2019 11:03:56' # 这是我搭建博客的时间
   alert: 努力运行
   day: 天
   hour: 时
