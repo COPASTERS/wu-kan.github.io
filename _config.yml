@@ -214,7 +214,7 @@ busuanzi:
 
 run-time:
   enable: true
-  start-time: '22/07/2019 17:57:56' # 这是我搭建博客到github的时间
+  start-time: '22/07/2019 10:57:56' # 这是我搭建博客到github的时间
   alert: 努力运行
   day: 天
   hour: 时
