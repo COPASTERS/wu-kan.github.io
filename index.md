@@ -2,7 +2,7 @@
 layout: page
 title: 日常摸鱼
 showtag:
-- ICPC模板
+- 常用备忘
 ---
 ## 近期
 
