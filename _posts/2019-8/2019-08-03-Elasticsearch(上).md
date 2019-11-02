@@ -49,7 +49,7 @@ ElasticSearch分为Linux和Window版本，基于我们主要学习的是ElasticS
 
 Window版的ElasticSearch的安装很简单，类似Window版的Tomcat，解压开即安装完毕，解压后的ElasticSearch的目录结构如下：
 
-![2019-08-03-08-11-43.png](https://ae01.alicdn.com/kf/Ha876369f01f24fb791100519c04515eaT.png)
+![2019-08-03-08-11-43.png](https://ae01.alicdn.com/kf/H0eddd672c3f243bcb0c1d6dab0cbc06el.png)
 
 ## 3.3. 启动ES服务
 
@@ -58,20 +58,20 @@ Window版的ElasticSearch的安装很简单，类似Window版的Tomcat，解压�
 **注意**：9300是tcp通讯端口，集群间和TCPClient都执行该端口，9200是http协议的RESTful接口 。
 通过浏览器访问ElasticSearch服务器，看到如下返回的json信息，代表服务启动成功：
 
-![2019-08-03-08-16-01.png](https://ae01.alicdn.com/kf/Hacb295b63e2c4cd096062c67349f36e7A.png)
+![2019-08-03-08-16-01.png](https://ae01.alicdn.com/kf/H8f3c2c7f4964465b9c3651c3067e8593y.png)
 
 **注意事项一**：ElasticSearch是使用java开发的，且本版本的es需要的jdk版本要是1.8以上，所以安装ElasticSearch之前保证JDK1.8+安装完毕，并正确的配置好JDK环境变量，否则启动ElasticSearch失败。
 **注意事项二**：出现闪退，通过路径访问发现“空间不足”
 
-![2019-08-03-08-17-25.png](https://ae01.alicdn.com/kf/H952550a408314d3087d640a4517943d6t.png)
+![2019-08-03-08-17-25.png](https://ae01.alicdn.com/kf/H44ea2beafd3a470aa56b7e85e27390abc.png)
 
 【解决方案】
 
-![2019-08-03-08-18-57.png](https://ae01.alicdn.com/kf/H7103323fea5a4870bbbd12f5f17d9c09U.png)
+![2019-08-03-08-18-57.png](https://ae01.alicdn.com/kf/H03672dbc4ae94c87996230c9507d3cf36.png)
 
 修改jvm.options文件的22行23行，把2改成1，让Elasticsearch启动的时候占用1个G的内存。
 
-![2019-08-03-08-20-19.png](https://ae01.alicdn.com/kf/Hb41975d68797401797e5f9950be635a5Z.png)
+![2019-08-03-08-20-19.png](https://ae01.alicdn.com/kf/H0ecd7a096ca04c89ba1acc1b79959cdfI.png)
 
 ## 3.4. 安装ES的图形化界面插件es-header(推荐使用kibana)
 
@@ -91,7 +91,7 @@ ElasticSearch不同于Solr自带图形化界面，我们可以通过安装Elasti
 
 安装完毕，可以通过cmd控制台输入：node -v 查看版本号
 
-![2019-08-03-08-25-27.png](https://ae01.alicdn.com/kf/H6312a427897048fc95db1a11bb3909cdp.png)
+![2019-08-03-08-25-27.png](https://ae01.alicdn.com/kf/Hc5efadd129e6460aa62739e79d88e87fa.png)
 
 5）将grunt安装为全局命令 ，Grunt是基于Node.js的项目构建工具；是基于javaScript上的一个很强大的前端自动化工具，基于NodeJs用于自动化构建、测试、生成文档的项目管理工具。
 在cmd控制台中输入如下执行命令：
@@ -102,7 +102,7 @@ ElasticSearch不同于Solr自带图形化界面，我们可以通过安装Elasti
 执行结果如下图：
    效果如下：
 
-![2019-08-03-08-27-09.png](https://ae01.alicdn.com/kf/Hda9e746ed41d4e72b8fe0fd004e8b6527.png)
+![2019-08-03-08-27-09.png](https://ae01.alicdn.com/kf/H2ca7f7dc8bf444aa9212611dc2bf38ce8.png)
 
 ps:如果安装不成功或者安装速度慢，可以使用淘宝的镜像进行安装：
        npm install -g cnpm –registry=https://registry.npm.taobao.org
@@ -124,11 +124,11 @@ http.cors.allow-origin: "*"：表示跨域访问允许的域名地址。
 
        grunt server
 
-![2019-08-03-08-30-44.png](https://ae01.alicdn.com/kf/He42fbf3a060c48d7b400d0552bf7f6f80.png)
+![2019-08-03-08-30-44.png](https://ae01.alicdn.com/kf/H83292bc22cc746f8ba8a7bf39da02b01N.png)
 
 根据提示访问，效果如下：
 
-![2019-08-03-08-34-39.png](https://ae01.alicdn.com/kf/Hdeb3849fd7f04387807f73d603371edbC.png)
+![2019-08-03-08-34-39.png](https://ae01.alicdn.com/kf/H45cdd7d2e2dd4ce8a3d5904bcedf627fe.png)
 
 **PS**：如果第5步失败，执行以下命令
 
@@ -136,11 +136,11 @@ http.cors.allow-origin: "*"：表示跨域访问允许的域名地址。
 
 再次启动grunt server
 
-![2019-08-03-08-36-24.png](https://ae01.alicdn.com/kf/H160033ac9c344517a4680a6198f4154eh.png)
+![2019-08-03-08-36-24.png](https://ae01.alicdn.com/kf/H2c04583e23f7460a95608ee9068e6d53b.png)
 
 再根据提示按以下方式依次安装组件
 
-![2019-08-03-08-37-24.png](https://ae01.alicdn.com/kf/H1dd0a0ef6ff74285a08c2bddbbd6ba41L.png)
+![2019-08-03-08-37-24.png](https://ae01.alicdn.com/kf/H57700809f6114004949417ca48ecb268q.png)
 
 (根据电脑可能有不同的错误)
 
@@ -155,7 +155,7 @@ Elasticsearch -> Indices   -> Types  -> Documents -> Fields
 
 以下表示2个文档（document），3个字段（field）
 
-![2019-08-03-08-44-39.png](https://ae01.alicdn.com/kf/Hc765f889f93a4527b054c196425c53fch.png)
+![2019-08-03-08-44-39.png](https://ae01.alicdn.com/kf/H6c031e21971f43bcb280f998ee8de538r.png)
 
 ## 4.2. Elasticsearch核心概念
 
@@ -241,12 +241,12 @@ IKAnalyzer是一个开源的，基于java语言开发的轻量级的中文分词
    (1）最小切分：在浏览器地址栏输入地址
 http://127.0.0.1:9200/_analyze?analyzer=ik_smart&pretty=true&text=我是程序员
 
-![2019-08-03-09-09-30.png](https://ae01.alicdn.com/kf/Ha7b5db9369b44e49a21be0935aa3e175e.png)
+![2019-08-03-09-09-30.png](https://ae01.alicdn.com/kf/H9d982985fe8543179c7455e2ca69ecce3.png)
 
    (2）最细切分：在浏览器地址栏输入地址
 http://127.0.0.1:9200/_analyze?analyzer=ik_max_word&pretty=true&text=我是程序员
 
-![2019-08-03-09-10-39.png](https://ae01.alicdn.com/kf/H5926bfba83bd4c238b00d323e56bee840.png)
+![2019-08-03-09-10-39.png](https://ae01.alicdn.com/kf/H4300d369a6bb431996ce367f240371dc6.png)
 
 在ElasticSearch没有索引的情况下，插入文档，默认创建索引和索引映射是无法使用IK分词器的。
 
