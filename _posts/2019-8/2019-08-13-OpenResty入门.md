@@ -43,7 +43,7 @@ yum install yum-utils
 
  修改代码如下：
 
- ![2019-08-13-08-34-42.png](http://pv125k1gl.bkt.clouddn.com/2019-08-13-08-34-42.png)
+ ![2019-08-13-08-34-42.png](https://ae01.alicdn.com/kf/H6af52949f2fa49b48c9832373b65a886c.png)
 
  # 3 测试访问
 
@@ -51,6 +51,6 @@ yum install yum-utils
 
 访问地址：http://192.168.211.132/
 
-![2019-08-13-08-35-52.png](http://pv125k1gl.bkt.clouddn.com/2019-08-13-08-35-52.png)
+![2019-08-13-08-35-52.png](https://ae01.alicdn.com/kf/Hd00df7da65a847c0bf34c10e661918b33.png)
 
      

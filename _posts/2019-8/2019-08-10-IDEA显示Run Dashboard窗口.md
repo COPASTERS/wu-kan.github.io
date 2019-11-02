@@ -25,7 +25,7 @@ date: 2019-08-10 19:49:51
 即依次点击“File -> Open”，选择项目。
 打开时，会弹出提示"Multiple Spring Boot run configurations were detected. Run Dashboard allows to manage multiple run configurations at once."。见下图：
 
-![2019-08-10-20-40-40.jpg](http://pv125k1gl.bkt.clouddn.com/2019-08-10-20-40-40.jpg)
+![2019-08-10-20-40-40.jpg](https://ae01.alicdn.com/kf/H05f68c3aa62640eba3b57ccd3e7e20d1x.jpg)
 
 点击“Show run configurations in Run Dashboard”，"Run Dashboard"面板重新在底部区域展示了出来。
 一般有时候创建springboot项目的时候右下角可以提示你打开Run Dashboard，但是如果不提醒就需要自己配置了。
