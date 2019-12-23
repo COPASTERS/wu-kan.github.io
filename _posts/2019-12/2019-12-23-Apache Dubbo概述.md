@@ -1,5 +1,3 @@
-2019-12-23-Apache Dubbo概述
-
 ---
 title: Apache Dubbo速览
 categories: Apache
