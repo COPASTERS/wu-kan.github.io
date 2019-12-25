@@ -20,22 +20,30 @@ Zookeeper树型目录服务：
 2. 服务消费者(Consumer)启动时: 订阅 /dubbo/com.foo.BarService/providers 目录下的提供者 URL 地址。并向 /dubbo/com.foo.BarService/consumers 目录下写入自己的 URL 地址
 
 3. 监控中心(Monitor)启动时: 订阅 /dubbo/com.foo.BarService 目录下的所有提供者和消费者 URL 地址
+
 ## 安装Zookeeper
+
 下载地址：http://archive.apache.org/dist/zookeeper/
 
 安装步骤：
+
 第一步：安装jdk
 
-详见本博客：  Centos6.7安装jdk1.8.0_171 [https://copasters.github.io/posts/Centos6.7%E5%AE%89%E8%A3%85jdk1.8.0_171]
+详见本博客：  Centos6.7安装jdk1.8.0_171 
+https://copasters.github.io/posts/Centos6.7%E5%AE%89%E8%A3%85jdk1.8.0_171
 
 第二步：第二步：把 zookeeper 的压缩包（zookeeper-3.4.6.tar.gz）上传到 linux 系统
+
 第三步：解压缩压缩包 tar -zxvf zookeeper-3.4.6.tar.gz -C /usr/local/src
 改名：mv zookeeper-3.4.6/ zookerper
+
 第四步：进入zookeeper目录，创建data目录 mkdir data
+
 第五步：进入conf目录 ，把zoo_sample.cfg 改名为zoo.cfg 
 cd conf 
 mv zoo_sample.cfg zoo.cfg
 其中zoo.cfg为正式的配置文件
+
 第六步：打开zoo.cfg文件, 修改data属性：dataDir=/usr/local/src/zookeeper/data
 
 ## 启动、停止Zookeeper
