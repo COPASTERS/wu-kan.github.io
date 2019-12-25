@@ -1,5 +1,9 @@
-2019-12-24-dubbo服务注册中心Zookeeper
-
+---
+title: dubbo服务注册中心Zookeeper
+categories: Apache
+tags: dubbo
+date: 2019-12-24 21:05:15
+---
 通过前面的Dubbo架构图可以看到，Registry（服务注册中心）在其中起着至关重要的作用。Dubbo官方推荐使用Zookeeper作为服务注册中心。
 ## Zookeeper介绍
 Zookeeper 是 Apache Hadoop 的子项目，是一个树型的目录服务，支持变更推送，适合作为 Dubbo 服务的注册中心，工业强度较高，可用于生产环境，并推荐使用 。
@@ -21,7 +25,9 @@ Zookeeper树型目录服务：
 
 安装步骤：
 第一步：安装jdk
-详见博客：   
+
+详见本博客：  Centos6.7安装jdk1.8.0_171 [https://copasters.github.io/posts/Centos6.7%E5%AE%89%E8%A3%85jdk1.8.0_171]
+
 第二步：第二步：把 zookeeper 的压缩包（zookeeper-3.4.6.tar.gz）上传到 linux 系统
 第三步：解压缩压缩包 tar -zxvf zookeeper-3.4.6.tar.gz -C /usr/local/src
 改名：mv zookeeper-3.4.6/ zookerper
