@@ -11,7 +11,7 @@ date: 2020-04-17 11:14:23
 
 # 脚本及注释
 
-``` shell
+```txt
 #使用方法：
 #sh restart.sh start # 启动
 #sh restart.sh # 重启
