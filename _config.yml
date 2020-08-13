@@ -173,7 +173,7 @@ sidebar:
     href: https://gitee.com/copasters #地址
     class: 'fa fa-code-fork fa-fw'
   - title: 小魔术师哈哈(B站) # B站
-    href: https://www.bilibili.com/
+    href: https://space.bilibili.com/68676146
     class: 'fa fa-video-camera fa-fw'
   nav:  # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
   - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
