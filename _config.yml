@@ -166,11 +166,11 @@ sidebar:
   - title: 1572690269@qq.com # email
     href: https://mail.qq.com
     class: 'fa fa-envelope fa-fw'
-  - title: github # email
+  - title: github # 代码托管
     href: //github.com/COPASTERS
     class: 'fa fa-github fa-fw'
-  - title: CSDN # vjudge
-    href: #地址
+  - title: gitee # 代码托管
+    href: https://gitee.com/copasters #地址
     class: 'fa fa-smile-o fa-fw'
   - title: 小魔术师哈哈(B站) # B站
     href: https://www.bilibili.com/
