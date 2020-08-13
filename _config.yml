@@ -109,7 +109,7 @@ body:
 script: # 需要在正文前调用的脚本
 - src: //cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js # jQuery
 - src: //cdn.jsdelivr.net/npm/ribbon.js/dist/ribbon.min.js # 彩带背景
-- src: //cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css # live2d
+- src: //cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js # live2d
 - src: //zz.bdstatic.com/linksubmit/push.js # 百度推送
 
 mermaid: # https://github.com/knsv/mermaid
@@ -173,7 +173,7 @@ sidebar:
     href: https://gitee.com/copasters #地址
     class: 'fa fa-code-fork fa-fw'
   - title: 小魔术师哈哈(B站) # B站
-    href: https://space.bilibili.com/68676146
+    href: https://www.bilibili.com/
     class: 'fa fa-video-camera fa-fw'
   nav:  # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
   - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
