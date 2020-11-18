@@ -112,7 +112,8 @@ debug:当此属性设置为true时，将打印出logback内部日志信息，实
 
 根节点<configuration>的子节点：
 
-<configuration>下面一共有2个属性，3个子节点
+在<configuration>下面一共有2个属性，3个子节点
+
 
 ### 属性一：设置上下文名称<contextName>
 
