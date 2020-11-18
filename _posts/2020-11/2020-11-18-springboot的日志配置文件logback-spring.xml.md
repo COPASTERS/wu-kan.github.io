@@ -36,7 +36,7 @@ Spring Boot为我们提供了很多默认的日志配置，所以，只要将spr
 
 控制台输出
 
-***日志级别从低到高分为TRACE < DEBUG < INFO < WARN < ERROR < FATAL，如果设置为WARN，则低于WARN的信息都不会输出。***
+***日志级别从低到高分为TRACE &lt; DEBUG &lt; INFO &lt; WARN &lt; ERROR &lt; FATAL，如果设置为WARN，则低于WARN的信息都不会输出。***
 
 Spring Boot中默认配置ERROR、WARN和INFO级别的日志输出到控制台。您还可以通过启动您的应用程序--debug标志来启用“调试”模式（开发的时候推荐开启）,以下两种方式皆可：
 
@@ -102,7 +102,7 @@ logging.config=classpath:logging-config.xml
 
 ## 下面具体说下logback-spring.xml的配置详情
 
-### 根节点<configuration>包含的属性
+### 根节点&lt;configuration>包含的属性
 
 scan:当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认值为true。
 
@@ -110,24 +110,24 @@ scanPeriod:设置监测配置文件是否有修改的时间间隔，如果没有
 
 debug:当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。
 
-根节点<configuration>的子节点：
+根节点&lt;configuration>的子节点：
 
-在<configuration>下面一共有2个属性，3个子节点
+在&lt;configuration>下面一共有2个属性，3个子节点
 
 
-### 属性一：设置上下文名称<contextName>
+### 属性一：设置上下文名称&lt;contextName>
 
-每个logger都关联到logger上下文，默认上下文名称为“default”。但可以使用<contextName>设置成其他名字，用于区分不同应用程序的记录。一旦设置，不能修改,可以通过%contextName来打印日志上下文名称。
+每个logger都关联到logger上下文，默认上下文名称为“default”。但可以使用&lt;contextName>设置成其他名字，用于区分不同应用程序的记录。一旦设置，不能修改,可以通过%contextName来打印日志上下文名称。
 
-<contextName>logback</contextName>
+&lt;contextName>logback&lt;/contextName>
 
-### 属性二：设置变量<property>
+### 属性二：设置变量&lt;property>
 
-用来定义变量值的标签，<property> 有两个属性，name和value；其中name的值是变量的名称，value的值时变量定义的值。通过<property>定义的值会被插入到logger上下文中。定义变量后，可以使“${}”来使用变量。
+用来定义变量值的标签，&lt;property> 有两个属性，name和value；其中name的值是变量的名称，value的值时变量定义的值。通过&lt;property>定义的值会被插入到logger上下文中。定义变量后，可以使“${}”来使用变量。
 
-<property name="log.path" value="E:\\logback.log" />
+&lt;property name="log.path" value="E:\\logback.log" />
 
-### 子节点一<appender>
+### 子节点一&lt;appender>
 
 appender用来格式化日志输出节点，有俩个属性name和class，class用来指定哪种输出策略，常用就是控制台输出策略和文件输出策略。
 
@@ -170,7 +170,7 @@ appender用来格式化日志输出节点，有俩个属性name和class，class�
     </appender>
 ```
 
-<encoder>表示对日志进行编码：
+&lt;encoder>表示对日志进行编码：
 
 - %d{HH: mm:ss.SSS}——日志输出时间
 
@@ -227,9 +227,9 @@ appender用来格式化日志输出节点，有俩个属性name和class，class�
     </appender>
 ```
 
-其中重要的是rollingPolicy的定义，上例中<fileNamePattern>标签定义了日志的切分方式——把每一天的日志归档到一个文件中并压缩，<maxHistory>30</maxHistory>表示只保留最近30天的日志，以防止日志填满整个磁盘空间。同理，可以使用%d{yyyy-MM-dd_HH-mm}来定义精确到分的日志切分方式。<timeBasedFileNamingAndTriggeringPolicy>用来指定日志文件的上限大小，例如设置为100MB的话，那么到了这个值，若超过100M，日志文件会以索引0开始，命名日志文件，例如log-error-2013-12-21.0.log 。
+其中重要的是rollingPolicy的定义，上例中&lt;fileNamePattern>标签定义了日志的切分方式——把每一天的日志归档到一个文件中并压缩，&lt;maxHistory>30&lt;/maxHistory>表示只保留最近30天的日志，以防止日志填满整个磁盘空间。同理，可以使用%d{yyyy-MM-dd_HH-mm}来定义精确到分的日志切分方式。&lt;timeBasedFileNamingAndTriggeringPolicy>用来指定日志文件的上限大小，例如设置为100MB的话，那么到了这个值，若超过100M，日志文件会以索引0开始，命名日志文件，例如log-error-2013-12-21.0.log 。
 
-### 子节点二<root>
+### 子节点二&lt;root>
 
 ```java
 <!-- 特殊的logger，根logger -->
@@ -246,11 +246,11 @@ root节点是必选节点，用来指定最基础的日志输出级别，只有�
 
 level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF，不能设置为INHERITED或者同义词NULL，默认是DEBUG。
 
-<root>可以包含零个或多个<appender-ref>元素，标识这个appender将会添加到这个loger。
+&lt;root>可以包含零个或多个&lt;appender-ref>元素，标识这个appender将会添加到这个loger。
 
-### 子节点三<loger>
+### 子节点三&lt;loger>
 
-<loger>用来设置某一个包或者具体的某一个类的日志打印级别、以及指定<appender>。<loger>仅有一个name属性，一个可选的level和一个可选的addtivity属性。
+&lt;loger>用来设置某一个包或者具体的某一个类的日志打印级别、以及指定&lt;appender>。&lt;loger>仅有一个name属性，一个可选的level和一个可选的addtivity属性。
 
 - name:用来指定受此loger约束的某一个包或者具体的某一个类。
 
@@ -270,9 +270,9 @@ level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERR
 
 #### 第一种：带有loger的配置，不指定级别，不指定appender
 
-<logger name="com.dudu.controller"/>
+&lt;logger name="com.dudu.controller"/>
 
-<logger name="com.dudu.controller" />将控制controller包下的所有类的日志的打印，但是并没用设置打印级别，所以继承他的上级<root>的日志级别“info”；
+&lt;logger name="com.dudu.controller" />将控制controller包下的所有类的日志的打印，但是并没用设置打印级别，所以继承他的上级&lt;root>的日志级别“info”；
 
 没有设置addtivity，默认为true，将此loger的打印信息向上级传递；
 
@@ -292,7 +292,7 @@ additivity属性为false，表示此loger的打印信息不再向上级传递
 
 指定了名字为“Dao”的appender
 
-这时候com.example.demo包中代码运行时，先执行<logger name="com.example.demo" level="${dao.level}" additivity="false">,将级别为“DEBUG”及大于“DEBUG”的日志信息交给此loger指定的名为“Dao”的appender处理，在对应的文件中打出日志，不再向上级root传递打印信息。
+这时候com.example.demo包中代码运行时，先执行&lt;logger name="com.example.demo" level="${dao.level}" additivity="false">,将级别为“DEBUG”及大于“DEBUG”的日志信息交给此loger指定的名为“Dao”的appender处理，在对应的文件中打出日志，不再向上级root传递打印信息。
 
 #### 多环境日志输出
 
