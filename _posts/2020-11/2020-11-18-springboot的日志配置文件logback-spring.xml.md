@@ -114,7 +114,6 @@ debug:当此属性设置为true时，将打印出logback内部日志信息，实
 
 在<configuration>下面一共有2个属性，3个子节点
 
---------------------------------------------------------------------------
 
 ### 属性一：设置上下文名称<contextName>
 
@@ -227,9 +226,11 @@ appender用来格式化日志输出节点，有俩个属性name和class，class�
         </filter>
     </appender>
 ```
+
 其中重要的是rollingPolicy的定义，上例中<fileNamePattern>标签定义了日志的切分方式——把每一天的日志归档到一个文件中并压缩，<maxHistory>30</maxHistory>表示只保留最近30天的日志，以防止日志填满整个磁盘空间。同理，可以使用%d{yyyy-MM-dd_HH-mm}来定义精确到分的日志切分方式。<timeBasedFileNamingAndTriggeringPolicy>用来指定日志文件的上限大小，例如设置为100MB的话，那么到了这个值，若超过100M，日志文件会以索引0开始，命名日志文件，例如log-error-2013-12-21.0.log 。
 
 ### 子节点二<root>
+
 ```java
 <!-- 特殊的logger，根logger -->
     <root lever="${dao.level}">
@@ -336,9 +337,9 @@ java -jar xxx.jar --spring.profiles.active=prod
 
 # 具体的demo代码
 
-    里面含有完整的logback-spring.xml文件
+里面含有完整的logback-spring.xml文件
 
-    [Gitee](https://gitee.com/copasters/mybatis-source-code-learn)
+[Gitee](https://gitee.com/copasters/mybatis-source-code-learn)
 
 
 
