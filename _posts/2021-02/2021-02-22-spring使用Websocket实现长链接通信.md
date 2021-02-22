@@ -285,3 +285,8 @@ $(function () {
 ## 项目代码
 
 [点击进入gitee获取项目代码](https://gitee.com/copasters/spring-websocket-stomp)
+
+参考文章地址：
+
+[Spring Websocket Stomp 消息订阅推送实战](https://blog.csdn.net/chinatreeqy/article/details/81115296?utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-1.nonecase)
+[websocket 实现长连接原理](https://blog.csdn.net/qq_35623773/article/details/87868682)
