@@ -1,5 +1,5 @@
 ---
-title: 2021-03-04-idea的debug使用详解及JRebel热部署插件使用
+title: idea的debug使用详解及JRebel热部署插件使用
 categories: idea jrebel
 tags:  idea jrebel
 date: 2021-03-04 15:24:43
